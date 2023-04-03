@@ -1,1 +1,22 @@
-create schema audit
+# Create the schema
+schema:
+  # create the table
+  table_name:
+    # create the columns
+    column_name_1:
+      # create the data type
+      type: data_type_1
+      # create any additional constraints or attributes
+      constraints:
+        - constraint_1
+        - constraint_2
+      attributes:
+        - attribute_1
+        - attribute_2
+    column_name_2:
+      type: data_type_2
+      constraints:
+        - constraint_3
+      attributes:
+        - attribute_3
+    # Add more columns as needed
